@@ -1,24 +1,21 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import BallPit from '../components/BallPit';
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div >
       <Head>
         <title>Create Next App</title>
         <meta name="Demari" content="My name is Demari" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <span>Contact me at <a href="mailto:demari@tecplus.io">demari@tecplus.io</a></span>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hi, I&apos;m Demari
-        </h1>
-          Reach out to me at <a href="mailto:demarijmiller@gmail.com"> demari@tecplus.io</a>
-
-
+      <main id="root">
+       
+        <BallPit />
       </main>
 
     </div>
