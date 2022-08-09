@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi, I'm Demari
+          Hi, I&apos;m Demari
         </h1>
 
         
